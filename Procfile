@@ -1,1 +1,1 @@
-web: waitress-serve --port=8000 EV_Charging.wsgi:application
+web: gunicorn EV_Chargeing.wsgi
